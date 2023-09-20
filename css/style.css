@@ -5,6 +5,7 @@
     background-color: rgb(136, 138, 241);
     padding: 40px;
     text-align: center;
+    height: 100%;
 }
 .texto{
     display: flex;
@@ -23,3 +24,14 @@ nav{
     padding: 20px;
     margin-top: 15px;
 }
+
+
+  .footer-parafo {
+    width: 100%;
+    background-color:rgb(12, 12, 12);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    
+  }
