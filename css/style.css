@@ -8,15 +8,14 @@
     height: 100%;
     width: 100%;
 }
-.texto{
-    display: flex;
+.video{
+    margin-right: 20px;
 }
 
-.texto p{
-    margin-top: 90px;
-    margin-left: 30px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h1,h2{
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 iframe{
     margin-top: 30px;
 }
@@ -25,6 +24,9 @@ nav{
     background-color: rgb(186, 186, 255);
     padding: 30px 0;
     
+}
+.col-12{
+    padding-left: 40px;
 }
 
 
