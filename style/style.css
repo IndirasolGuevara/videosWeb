@@ -112,6 +112,8 @@ Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes */
 .box.small{
     grid-column: span 1;
     grid-row: span 1;
+    width: min-content;
+    height: min-content;
 }
 .box {
     background-color: #fff;
@@ -133,6 +135,7 @@ Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes */
 .box.age {
     grid-column: span 1;
     grid-row: span 1;
+    background-color: #ffccff;
 }
 
 .box.education {
@@ -202,15 +205,6 @@ Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools
     grid-row: span 2;
 }
 
-.box.tools ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.box.tools li {
-    margin-bottom: 10px;
-}
-
 /* PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR
 PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
 PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BARPROGRES BARPROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
@@ -221,26 +215,4 @@ PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES 
  */
 .box-content {
     position: relative;
-}
-
-.progress-bar {
-    height: 10px; 
-    position: absolute;
-    top: 0;
-    left: 0;
-    max-width: 80%;
-    margin: 2% 13%; 
-    padding: 1.5%;
-    animation: loading-animation 2s; 
-    border-radius: 50px;
-}
-
-@keyframes loading-animation {
-    0% {
-        width: 0;
-    }
-}
-.progress-bar h2{
-    padding-top: 1%;
-    text-align: center;
 }
