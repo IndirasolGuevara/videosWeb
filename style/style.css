@@ -1,0 +1,267 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #333;
+}
+*{
+    margin: 0;
+}
+.header-color{
+    display: inline-block;
+    background-color: rgb(136, 138, 241);
+    padding: 20px 0;
+    height: 100%;
+    width: 100%;
+}
+.video{
+    margin-right: 20px;
+}
+
+h1,h2,h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe{
+    margin-top: 30px;
+}
+nav{
+    width: 100%;
+    background-color: rgb(186, 186, 255);
+    padding: 30px 0;
+}
+.col-12{
+    padding-left: 40px;
+}
+
+
+  .footer-parafo {
+    width: 100%;
+    background-color:rgb(12, 12, 12);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    
+  }
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+.subtitulo{
+    padding-left: 30px;
+    color: #333;
+}
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(minmax(150px, 1fr));
+    gap: 10px;
+    width: 1000px;
+    margin: 20px auto;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+h2{
+    color: #264de4;
+}
+
+.top-right {
+    top: 2%;
+    right: 2%;
+    position: absolute;
+    border: 1px;
+    transition: transform 0.3s ease;
+}
+
+/* Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes 
+Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes */
+.bigbox {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+.box.small{
+    grid-column: span 1;
+    grid-row: span 1;
+}
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.box:hover {
+    transform: scale(1.05); 
+}
+
+.box.about-me {
+    grid-column: span 2;
+    grid-row: span 1;
+    /*background-color: #ffcc00;*/
+}
+
+.box.age {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.box.education {
+    grid-column: span 3; 
+    grid-row: span 1; 
+    /*background-color: #66ccff;*/
+}
+
+
+.box.courses {
+    grid-column: span 4; 
+    grid-row: span 1; 
+    /*background-color: #ffccff;*/
+}
+
+.box.goals {
+    grid-column: span 3;
+    grid-row: span 1;
+    /*background-color: #cc99ff;*/
+}
+
+.box.hobbies {
+    grid-column: span 2;
+    grid-row: span 1;
+    /*background-color: #66ff99;*/
+}
+
+.box.projects {
+    grid-column: span 2; 
+    grid-row: span 2; 
+    /*background-color: #ffcc66;*/
+}
+/* Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night ModeSwitch Night ModeSwitch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
+Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode */
+
+body.night-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.night-mode .box {
+    background-color: #444;
+    color: #fff;
+}
+
+
+/* Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools 
+Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools 
+*/
+.box.tools {
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+.box.tools ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box.tools li {
+    margin-bottom: 10px;
+}
+
+/* Logos for list items */
+.box.tools li::before {
+    content: '';
+    display: inline-block;
+    width: 20px; 
+    height: 20px; 
+    margin-right: 10px; 
+    background-size: contain;
+}
+
+.grid-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    max-width: 100%;
+}
+.logos {
+    margin-top: 2%;
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR
+PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
+PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BARPROGRES BARPROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
+PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR v
+PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
+PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
+PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR
+ */
+.box-content {
+    position: relative;
+}
+
+.progress-bar {
+    height: 10px; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 80%;
+    margin: 2% 13%; 
+    padding: 1.5%;
+    animation: loading-animation 2s; 
+    border-radius: 50px;
+}
+
+@keyframes loading-animation {
+    0% {
+        width: 0;
+    }
+}
+.progress-bar h2{
+    padding-top: 1%;
+    text-align: center;
+}
