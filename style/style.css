@@ -211,18 +211,6 @@ Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools
     margin-bottom: 10px;
 }
 
-
-.grid-logos {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    max-width: 100%;
-}
-.logos {
-    margin-top: 2%;
-    grid-column: span 1;
-    grid-row: span 1;
-}
-
 /* PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR
 PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
 PROGRES BAR PROGRES BAR PROGRES BAR PROGRES BARPROGRES BARPROGRES BAR PROGRES BAR PROGRES BAR PROGRES BAR 
