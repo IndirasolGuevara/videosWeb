@@ -7,7 +7,6 @@ body {
     margin: 0;
 }
 .header-color{
-    display: inline-block;
     background-color: rgb(136, 138, 241);
     padding: 20px 0;
     height: 100%;
@@ -32,6 +31,7 @@ nav{
 .col-12{
     padding-left: 40px;
 }
+
 
 
   .footer-parafo {
@@ -164,6 +164,17 @@ Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes Boxes */
     grid-column: span 2; 
     grid-row: span 2; 
     /*background-color: #ffcc66;*/
+}
+
+.box.videos{
+    grid-column: span 3; 
+    grid-row: span 3;
+    padding-left: 40px;
+    padding-top: 80px;
+}
+.box.video2{
+    grid-column: span 3; 
+    grid-row: span 2;
 }
 /* Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
 Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode Switch Night Mode 
