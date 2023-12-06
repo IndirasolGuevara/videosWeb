@@ -211,15 +211,6 @@ Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools Tools
     margin-bottom: 10px;
 }
 
-/* Logos for list items */
-.box.tools li::before {
-    content: '';
-    display: inline-block;
-    width: 20px; 
-    height: 20px; 
-    margin-right: 10px; 
-    background-size: contain;
-}
 
 .grid-logos {
     display: grid;
